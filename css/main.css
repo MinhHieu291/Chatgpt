@@ -40,6 +40,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
+span{
+  cursor: pointer;
+}
+.backgr-none
+{
+  background-color: #202123 !important;
+}
 /* sidebar */
 .sidebar {
   font-size: 14px;
@@ -91,6 +98,7 @@ body {
   justify-content: space-between;
   padding: 12px;
   border-radius: 8px;
+  cursor: pointer;
 }
 .sidebar-tag span {
   font-size: 22px;
