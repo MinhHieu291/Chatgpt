@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatGPT</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="sidebar-top">
+        <button class="sidebar-add">
+          <span class="material-symbols-outlined"> add </span>
+          <p>New chat</p>
+        </button>
+        <button class="sidebar-close">
+          <span class="material-symbols-outlined"> dock_to_right </span>
+        </button>
+      </div>
+      <div class="sidebar-content">
+        <h3 class="sidebar-title">Today</h3>
+        <div class="sidebar-tag">
+          <span class="material-symbols-outlined"> chat_bubble </span>
+          <p>ChatGPT Introduction</p>
+          <span class="material-symbols-outlined"> edit </span>
+          <span class="material-symbols-outlined"> delete </span>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="main-header">
+        <div class="empty"></div>
+        <p class="main-version">Default (GPT-3.5)</p>
+        <span class="material-symbols-outlined"> ios_share </span>
+      </div>
+      <hr />
+      <div class="main-user">
+        <div class="user-image">
+          <img src="./image/la.webp" alt="user-avatar" />
+        </div>
+        <p>Giới thiệu về bạn</p>
+      </div>
+      <hr />
+      <div class="content-container">
+        <div class="main-content">
+          <div class="gpt-image">
+            <img src="./image/gpt.svg" alt="gpt-avatar" />
+          </div>
+          <div class="gpt-content">
+            <p>
+              Chào bạn! Tôi là ChatGPT, một trợ lí ảo được phát triển bởi
+              OpenAI. Tôi được đào tạo dựa trên một mô hình ngôn ngữ cực kỳ mạnh
+              gọi là GPT-3.5, và tôi có khả năng đáp ứng các câu hỏi, tạo văn
+              bản, thực hiện tác vụ ngôn ngữ tổng quát và nhiều nhiệm vụ khác.
+            </p>
+            <p>
+              Tôi có thể giúp bạn với nhiều loại công việc, từ tìm kiếm thông
+              tin, viết văn bản, hướng dẫn về công nghệ, tư vấn về sức khoẻ và
+              nhiều lĩnh vực khác. Tôi cũng có khả năng đối thoại tự nhiên, có
+              thể nói chuyện với bạn như một người bạn thông thường.
+            </p>
+            <p>
+              Hãy nói cho tôi biết bạn cần giúp đỡ về điều gì, và tôi sẽ cố gắng
+              hỗ trợ bạn một cách tốt nhất có thể!
+            </p>
+          </div>
+          <div class="gpt-icons">
+            <span class="material-symbols-outlined"> content_paste </span>
+            <span class="material-symbols-outlined"> thumb_up </span>
+            <span class="material-symbols-outlined"> thumb_down </span>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="main-helpful">
+        <p>Is this conversation helpful so far?</p>
+        <div class="helpful-icons">
+          <span class="material-symbols-outlined"> thumb_up </span>
+          <span class="material-symbols-outlined"> thumb_down </span>
+        </div>
+      </div>
+      <div class="prompt">
+        <div class="re-prompt">
+          <span class="material-symbols-outlined"> autorenew </span>
+          Regenerate
+        </div>
+        <div class="prompt-input">
+          <input type="text" placeholder="Send a message" />
+          <span class="material-symbols-outlined"> send </span>
+        </div>
+        <div class="prompt-license">
+          <p>
+            Free Research Preview. ChatGPT may produce inaccurate information
+            about people, places, or facts. <u>ChatGPT September 25 Version</u>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
